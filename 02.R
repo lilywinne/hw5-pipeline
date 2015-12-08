@@ -24,4 +24,4 @@ pic2<-ggplot(china_us.tidy, aes(x = year, y = value,fill = country)) +
   geom_point(pch=21)+ 
   geom_line()+
   scale_x_continuous(breaks = seq(1950, 2011, 15))
-ggsave("China vs US", pic2)
+ggsave("China vs US.png", pic2)

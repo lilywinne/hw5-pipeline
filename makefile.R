@@ -2,7 +2,7 @@
 
 ## clean out any previous work
 outputs <- c("gapminder.tsv",                     # 00.R
-             "drop_clean_gap.tsv.tsv",                   # 01.R
+             "drop_clean_gap.tsv",                   # 01.R
              list.files(pattern = "*.png$"))
 file.remove(outputs)
 
